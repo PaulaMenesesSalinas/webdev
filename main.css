@@ -1,0 +1,33 @@
+body {
+    background-color:  black;
+    color: aliceblue;
+    text-align: center;
+
+    height: 90vh;
+    display: grid;
+    place-items: center;
+}
+
+#backend {
+    scale: -1; 
+}
+
+main {
+    background-color:black;
+    border: 4px double;
+    border-radius: 50%;
+    color: hotpink;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+
+    animation: rota 60s
+    
+}
+@keyframes rota  {
+    0% { rotate: 0deg; }
+    100% { rotate: 360deg; }
+    
+}
+
